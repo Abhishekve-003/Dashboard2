@@ -1,0 +1,9 @@
+
+.imgStyle{
+    @apply bg-gradient-to-r from-black to-black  rounded-l-md;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    /* background-color: black; */
+}
+
