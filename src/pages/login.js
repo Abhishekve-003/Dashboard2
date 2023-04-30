@@ -9,7 +9,7 @@ import { signIn, signOut } from "next-auth/react";
 export default function Login() {
   // Google Handler function
   async function handleGoogleSignin() {
-    signIn("google", { callbackUrl: " http://localhost:3000" });
+    signIn("google", { callbackUrl: "https://resilient-cendol-6e5d4a.netlify.app" });
   }
 
   return (
